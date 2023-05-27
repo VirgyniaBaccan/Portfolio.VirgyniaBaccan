@@ -1,0 +1,8 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    align-items: center;
+    width: 882.72px;
+    height: 277.1px;
+}

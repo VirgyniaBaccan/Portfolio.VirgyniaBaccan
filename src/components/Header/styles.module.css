@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 229px;
+
+    width: 900px;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 256px;
+    height: 17px;
+}
+
+.logo {
+    width: 70.7px;
+    height: 13.87px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-white);
+}

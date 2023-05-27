@@ -1,0 +1,37 @@
+  :root {
+      --color-purple: #6880ff;
+      --color-white: #ffffff;
+      --color-background: linear-gradient(to bottom, #0c0c0c 0%, #0c0c0c 100%);
+      font-size: 62.5%;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      box-sizing: border-box;
+  }
+
+  body, html {
+      width: 100vw;
+      height: 100vh;
+  }
+
+  body, input, button, textarea {
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+      display: flex;
+      justify-content: center;
+      background: var(--color-background);
+      color: var(--color-white);
+      -webkit-font-smoothing: antialised;
+      overflow-x: hidden;
+      
+  }
+
+  button {
+    cursor: pointer;
+  }
+

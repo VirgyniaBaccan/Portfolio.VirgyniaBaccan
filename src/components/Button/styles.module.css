@@ -1,0 +1,14 @@
+.button {
+    width: 9rem;
+    height: 2.6rem;
+    border: none;
+    background: var(--color-purple);
+    border-radius: .75rem;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: var(--color-white);
+}
