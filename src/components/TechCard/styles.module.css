@@ -1,3 +1,45 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+}
+
 .li {
     display: flex;
+    padding-left: 2rem;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    max-width: 16.25rem;
+    height: 4.8rem;
+    border: .0625rem solid rgba(255, 255, 255, 0.5);
+    border-radius: 1.5625rem;
+}
+
+.name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 1.6875rem;
+    color: var(--color-white)
+}
+
+@media (min-width: 769px) {
+    .list {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 56.25rem;
+    
+    }
+
+    .li {
+        width: 300px;
+        height: 75px;
+    }
+
 }

@@ -1,31 +1,54 @@
 .header {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px;
-    gap: 229px;
-
-    width: 900px;
-    height: 80px;
+    width: 100vw;
+    height: 7.75rem;
 }
 
-.menu {
+.nav {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    width: 256px;
-    height: 17px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1.25rem;
+    max-width: 56.25rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
 }
 
 .logo {
-    width: 70.7px;
-    height: 13.87px;
+    width: 4.4188rem;
+    height: .8669rem;
 }
 
-.text {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 16.25rem;
+}
+
+.a {
+    text-decoration: none;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: .875rem;
+    line-height: 1.0625rem;
     color: var(--color-white);
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+@media (min-width: 769px) {
+    .nav {
+        flex-direction: row;
+        margin-top: 0rem;
+    }
 }

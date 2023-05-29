@@ -1,5 +1,61 @@
-.section {
-    width: 896px;
-    height: 150px;
-    margin-top: 5rem;
-}
+  .section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 56.25rem;
+      margin-top: 4.5rem;
+  }
+
+  .div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: 17.5rem;
+      width: 100%;
+      max-width: 16.25rem;
+  }
+
+  .lorem {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      color: var(--color-white);
+  }
+
+  .title {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 2.25rem;
+      line-height: 2.75rem;
+      color: var(--color-white);
+  }
+
+  @media (min-width: 769px) {
+      .section {
+          margin-top: 2rem;
+          align-items: flex-start;
+      }
+
+      .div {
+          flex-direction: row;
+          margin-top: 0rem;
+          max-width: 100%;
+          height: 13rem;
+      }
+
+      .lorem {
+          width: 70%;
+          font-size: 1rem;
+          line-height: 1.875rem;
+
+      }
+
+      .title {
+          width: 30%;
+          font-size: 2.5rem;
+          line-height: 3rem;
+      }
+  }

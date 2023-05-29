@@ -1,15 +1,13 @@
+import { ProjectsCard } from '../../ProjectsCard'
 import styles from '../ProjectsSection/styles.module.css'
 
 export const ProjectsSection = () => {
     return (
-        <section>
-            <h2 id="section__projects">Projetos</h2>
-            <ul className={styles.list}>
-                <li>P2</li>
-                <li>P2</li>
-                <li>P3</li>
-                <li>P4</li>
-            </ul>
+        <section className={styles.section}>
+            <div className={styles.div}>
+                <h2 className={styles.title} id='section__projects'>Projetos</h2>
+                <ProjectsCard />
+            </div>
         </section>
     )
 }
