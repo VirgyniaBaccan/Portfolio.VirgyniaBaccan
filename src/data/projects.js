@@ -1,7 +1,11 @@
 export const projects = [
   {
-    name: "Projeto 1",
-    descricao: "Atividade Props Card Pessoas",
+    name: "Hamburgueria Kenzie",
+    descricao: (
+      <a href>
+        https://react-entrega-s3-template-hamburgueria-virgynia-bacc-elwjuoja0.vercel.app/
+      </a>
+    ),
   },
   {
     name: "Projeto 2",
