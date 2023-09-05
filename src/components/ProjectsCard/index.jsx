@@ -14,7 +14,7 @@ export const ProjectsCard = () => {
                                 <img src={gitIcon} alt='Ícone GitHub' />
                             </div>
                             <p className={styles.description}>{project.descricao}</p>
-                            <a className={styles.link} href="#">Saiba mais</a>
+                            <a className={styles.link} href={project.link}>Saiba mais</a>
                         </li>
                     )
                 })

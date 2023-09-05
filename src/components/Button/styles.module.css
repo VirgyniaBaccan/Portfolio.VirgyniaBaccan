@@ -5,7 +5,7 @@
     width: 7.125rem;
     height: 2.4375rem;
     border: none;
-    background: var(--color-purple);
+    background: var(--color-green);
     border-radius: .75rem;
     
     font-style: normal;
@@ -16,5 +16,5 @@
 }
 
 .button:hover {
-    background: #7C91FF;
+    background: #14420e;
 }
