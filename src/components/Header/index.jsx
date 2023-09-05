@@ -22,7 +22,7 @@ export const Header = () => {
             Projetos
           </a>
         </div>
-        <a href="https://www.linkedin.com/in/virgyniabaccan/">
+        <a href="https://www.linkedin.com/in/virgyniabaccan/" target="_blank">
           <Button>Contato</Button>
         </a>
       </nav>

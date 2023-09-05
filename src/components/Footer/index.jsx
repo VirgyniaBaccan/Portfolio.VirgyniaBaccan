@@ -12,8 +12,8 @@ export const Footer = () => {
               <h2 className={styles.title} id="footer__contacts">
                 Contato
               </h2>
-              <a href="https://www.linkedin.com/in/virgyniabaccan/">
-                <img src={linkedin} alt="Ícone LinkedIn" />
+              <a href="https://www.linkedin.com/in/virgyniabaccan/" target="_blank">
+                <img src={linkedin} alt="Ícone LinkedIn"/>
               </a>
             </div>
           </div>

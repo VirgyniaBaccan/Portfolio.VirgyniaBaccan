@@ -10,7 +10,7 @@ export const BannerSection = () => {
         <h4 className={styles.user}>{username}</h4>
         <h1 className={styles.title}>Bem-vindo(a) ao meu portfólio</h1>
         <p className={styles.text}>Desenvolvedora Frontend Jr.</p>
-        <a href="https://github.com/VirgyniaBaccan">
+        <a href="https://github.com/VirgyniaBaccan" target="_blank">
           <Button>Saiba mais</Button>
         </a>
       </div>
